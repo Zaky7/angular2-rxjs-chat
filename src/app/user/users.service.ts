@@ -1,7 +1,7 @@
 import { BehaviorSubject, Subject } from 'rxjs';
 import { User } from './user.model';
 
-export class UserService {
+export class UsersService {
 
     // BehaviourSubject Store the Last Value
     currentUser: Subject<User> = new BehaviorSubject<User>(null);
@@ -13,5 +13,5 @@ export class UserService {
 
 
 export const userServiceInjectables: Array<any> = [
-    UserService
+    UsersService
 ];

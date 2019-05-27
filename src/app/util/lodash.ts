@@ -1,1 +1,1 @@
-export { sortBy, chain, values, map  } from 'lodash';
+export { sortBy, chain, values, map, reduce  } from 'lodash';

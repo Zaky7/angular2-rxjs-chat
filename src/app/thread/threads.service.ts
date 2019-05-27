@@ -6,8 +6,9 @@ import { map } from 'rxjs/operators';
 import { combineLatest } from 'rxjs';
 
 import * as _ from '../util/lodash';
+import { Injectable } from '@angular/core';
 
-
+@Injectable()
 export class ThreadsService {
 
     // thread's is an Observable containing up to date list of threads
@@ -74,3 +75,7 @@ export class ThreadsService {
         this.currentThread.next(newThread);
     }
 }
+
+export const threadsServiceInjectables: Array<any> = [
+    ThreadsService
+  ];

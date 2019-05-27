@@ -2,7 +2,7 @@ import { User } from '../user/user.model';
 import { Thread } from './thread.model';
 import { Message } from '../message/message.model';
 import { MessagesService } from '../message/messages.service';
-import { ThreadsService } from './thread.service';
+import { ThreadsService } from './threads.service';
 
 import * as _ from '../util/lodash';
 
