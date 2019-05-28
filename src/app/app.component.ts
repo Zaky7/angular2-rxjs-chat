@@ -13,6 +13,6 @@ export class AppComponent {
   constructor(public messagesService: MessagesService,
     public threadsService: ThreadsService,
     public usersService: UsersService) {
-ChatExampleData.init(messagesService, threadsService, usersService);
-}
+    ChatExampleData.init(messagesService, threadsService, usersService);
+  }
 }
