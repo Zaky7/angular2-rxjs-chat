@@ -50,6 +50,8 @@ export class MessagesService {
             })
         ).subscribe(this.updates);
 
+        this.newMessages.subscribe(this.create);
+
         // It takes a Thread and puts an operation on the updates stream to
         // hrMark the Messages as read
         this.markThreadAsRead.pipe(

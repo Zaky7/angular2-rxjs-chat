@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Debug My RXJS",
-            "url": "http://localhost:4200",
+            "url": "http://localhost:4300",
             "webRoot": "${workspaceFolder}"
         },
         {

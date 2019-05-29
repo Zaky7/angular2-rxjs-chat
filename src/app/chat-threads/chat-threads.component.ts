@@ -12,6 +12,7 @@ export class ChatThreadsComponent {
 
   constructor(public threadsService: ThreadsService) {
     this.threads = this.threadsService.orderedThreads;
+    console.log(this.threads);
   }
 
 }
